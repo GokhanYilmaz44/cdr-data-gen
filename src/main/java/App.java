@@ -49,8 +49,8 @@ public class App {
                 String calling_num = df.getNumberText(10);
                 String called_num = df.getNumberText(10);
 
-                String sourceLocation = df.getItem(cities);
-                String destination=df.getItem(cities);
+                String sourceLocation = df.getItem(cities,100);
+                String destination=df.getItem(cities,100);
 
                 long t1 = System.currentTimeMillis() + r.nextInt();
                 long t2 = t1 + 2 * 60 * 1000 + r.nextInt(60 * 1000) + 1;
